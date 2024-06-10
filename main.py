@@ -4,6 +4,7 @@ import os
 from random import randint, choice
 
 
+
 def verificar_tempo():
     tempo = int(pygame.time.get_ticks() / 1000) - tempo_inicial
     score_surface = fonte_teste.render(f'Score: {tempo}', False, (64, 64, 64))
